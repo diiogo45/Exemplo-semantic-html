@@ -1,0 +1,47 @@
+h1{
+color:red;
+text-align: center;
+}
+.grid-image{
+display: grid;
+grid-template-columns: repeat(3,300px);
+grid-row:3px;
+grid-gap:10px;
+}
+
+@media screen and (max-width:330px) {
+h1{
+color: pink;	
+}
+.pattaya{
+width:100px;
+height:150px;
+
+}
+.pattaya2{
+width:95px;
+height:150px;
+}
+.pattaya3{
+width:95px;
+height:150px;
+}
+.pattaya4{
+width:95px;
+height:150px;
+}
+.pattaya5{
+width:90px;
+height:150px;
+}
+.pattaya6{
+width:95px;
+height:150px;
+}
+.grid-image{
+display: grid;
+grid-template-columns: repeat(3,100px);
+grid-row:2px;
+grid-gap:5px;
+}
+}
